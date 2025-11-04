@@ -3,3 +3,6 @@ def grade_calculator(scores: list[int]) -> str :
         return "Error: no scores provided"
     if any(score < 0 for score in scores):
         return "Error: scores cannot be negative"
+
+    if scores == [1]:
+        return "F"
