@@ -1,5 +1,5 @@
-def test_grade_calculator():
-      grade_calculator()
+from src.grade_calculator import grade_calculator
 
-def grade_calculator():
-       pass
+def test_grade_calculator():
+       grade_calculator()
+
